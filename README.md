@@ -23,3 +23,6 @@ This backend application written in Java using Spring contains a hexagonal archi
 - Add balance to a specific user
 
 - Retrieve the balance of the user
+
+
+By running `mvn springboot:run` it should deploy a db in a docker container in which the users will be registered, alongside the backend application in a different one.
